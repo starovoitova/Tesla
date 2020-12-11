@@ -1,0 +1,470 @@
+* {
+    overflow-x: hidden;
+    margin: 0px !important;
+}
+
+.body {}
+
+.Logo {
+    position: absolute;
+    left: 750px;
+    top: 14px;
+}
+
+.Red {
+    position: absolute;
+    top: 14px;
+    left: 1379px;
+}
+
+.grid-container {
+    max-width: 35.08cm;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.map {
+    position: absolute;
+    width: 427px;
+    height: 530px;
+    left: 110px;
+    top: 65px;
+    border-radius: 16px;
+    background-color: #F7F6F4;
+}
+
+.time {
+    position: absolute;
+    width: 427px;
+    height: 158px;
+    left: 547px;
+    top: 65px;
+    background: #F7F6F4;
+    border-radius: 16px;
+}
+
+.wifi {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.sun {
+    position: absolute;
+    top: 73px;
+    left: 937px;
+}
+
+.location {
+    position: absolute;
+    width: 134px;
+    height: 111px;
+    left: 547px;
+    top: 234px;
+    background: #F7F6F4;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-image: url(Icons/location.jpg);
+    background-position: center;
+}
+
+.manual {
+    position: absolute;
+    width: 134px;
+    height: 111px;
+    left: 694px;
+    top: 234px;
+    background: #F7F6F4;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-image: url(Icons/manual.png);
+    background-position: center;
+}
+
+.phone {
+    position: absolute;
+    width: 134px;
+    height: 111px;
+    left: 840px;
+    top: 234px;
+    background: #F7F6F4;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-image: url(Icons/phone.png);
+    background-position: center;
+}
+
+.tv {
+    position: absolute;
+    width: 134px;
+    height: 111px;
+    left: 547px;
+    top: 358px;
+    background: #F7F6F4;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-image: url(Icons/tv.png);
+    background-position: center;
+}
+
+.music {
+    position: absolute;
+    width: 134px;
+    height: 111px;
+    left: 694px;
+    top: 358px;
+    background: #F7F6F4;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-image: url(Icons/music.png);
+    background-position: center;
+}
+
+.seats {
+    position: absolute;
+    width: 134px;
+    height: 111px;
+    left: 840px;
+    top: 358px;
+    background: #F7F6F4;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-image: url(Icons/seats.png);
+    background-position: center;
+}
+
+.internet {
+    position: absolute;
+    width: 134px;
+    height: 111px;
+    left: 547px;
+    top: 482px;
+    background: #F7F6F4;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-image: url(Icons/internet.png);
+    background-position: center;
+}
+
+.night {
+    position: absolute;
+    width: 134px;
+    height: 111px;
+    left: 694px;
+    top: 482px;
+    background: #F7F6F4;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-image: url(Icons/night.png);
+    background-position: center;
+}
+
+.lock {
+    position: absolute;
+    width: 134px;
+    height: 111px;
+    left: 840px;
+    top: 482px;
+    background: #F7F6F4;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-image: url(Icons/lock.png);
+    background-position: center;
+}
+
+.car {
+    position: absolute;
+    width: 427px;
+    height: 740px;
+    left: 984px;
+    top: 65px;
+    background: #F7F6F4;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-image: url(Icons/tesla.png);
+    background-position: center;
+    background-size: 55%;
+}
+
+.creativecloud {
+    position: absolute;
+    width: 427px;
+    height: 200px;
+    left: 110px;
+    top: 605px;
+    background: #F7F6F4;
+    border-radius: 16px;
+}
+
+.spotify {
+    position: absolute;
+    width: 427px;
+    height: 200px;
+    left: 547px;
+    top: 605px;
+    background: #F7F6F4;
+    border-radius: 16px;
+}
+
+.footer {
+    position: absolute;
+    width: 1301px;
+    height: 52px;
+    left: 109px;
+    top: 817px;
+    background: #F7F6F4;
+    border-radius: 16px;
+}
+
+.charge {
+    position: absolute;
+    width: 92px;
+    height: 102px;
+    left: 1152px;
+    top: 712px;
+}
+
+.speed {
+    position: absolute;
+    width: 83px;
+    height: 103px;
+    left: 1008px;
+    top: 86px;
+}
+
+.w-full {
+    position: absolute;
+    width: 427px;
+    height: 530px;
+    border-radius: 16px;
+    left: 110px;
+    top: 65px;
+
+}
+
+.map {
+    z-index: -1;
+}
+
+.btn.active {
+    background-color: #EDEDED;
+    box-shadow: inset 3px 3px 6px rgba(154, 147, 140, 0.5), 3px 3px 6px rgba(255, 255, 255, 1);
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.tesla-cloud-title {
+    font-family: gotham;
+    color: #10141C;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 35px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.button {
+    text-align: right;
+    padding-right: 10px;
+
+}
+
+.tesla-cloud-items-block a {
+    display: inline-block;
+    width: 88px;
+    height: 92px;
+    margin: 5px !important;
+}
+
+.tesla-cloud-items-block a:focus {
+    outline: none;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.time1 {
+    position: absolute;
+    font-family: Gotham;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    top: 102px;
+    left: 715px;
+    color: #10141C;
+}
+
+.date {
+    position: absolute;
+    font-family: Gotham;
+    font-size: 12px;
+    top: 90px;
+    left: 730px;
+    color: #10141C;
+}
+
+.micro {
+    position: absolute;
+    left: 750px;
+    top: 133px;
+}
+
+.help {
+    position: absolute;
+    font-family: Gotham;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    top: 180px;
+    left: 721px;
+    color: #10141C;
+}
+
+.speed1 {
+    position: absolute;
+    font-family: Gotham;
+    font-weight: 400;
+    font-size: 44px;
+    top: 94px;
+    left: 1165px;
+    color: #10141C;
+}
+
+.speed2 {
+    position: absolute;
+    font-family: Gotham;
+    font-weight: 400;
+    font-size: 24px;
+    top: 138px;
+    left: 1168px;
+    color: #10141C;
+}
+
+.percent {
+    position: absolute;
+    font-family: Gotham;
+    font-weight: 400;
+    font-size: 21px;
+    top: 745px;
+    left: 1244px;
+    color: #10141C;
+}
+
+.ways {
+    position: absolute;
+    top: 687px;
+    left: 1108px;
+}
+
+.bluetooth {
+    position: absolute;
+    top: 833px;
+    left: 120px;
+}
+
+.monikas {
+    position: absolute;
+    font-family: Gotham;
+    font-weight: 300;
+    font-size: 14px;
+    top: 839px;
+    left: 150px;
+    color: #10141C;
+}
+
+.profile_icon {
+    position: absolute;
+    top: 833px;
+    left: 1365px;
+}
+
+.profile {
+    position: absolute;
+    font-family: Gotham;
+    font-weight: 300;
+    font-size: 14px;
+    top: 839px;
+    left: 1310px;
+    color: #10141C;
+}
+
+.table {
+    position: absolute;
+    top: 830px;
+    left: 670px;
+
+}
+
+.autodrive {
+    position: absolute;
+    top: 400px;
+    left: 1020px;
+}
+
+.lights {
+    position: absolute;
+    top: 400px;
+    left: 1309px;
+}
